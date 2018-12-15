@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CommonTool.h"
 
-#define lastSpace 5
+#define lastSpace 12
 #define topMargin 5   // 为顶部留出的空白
 #define xAxisTextGap 5 //x轴文字与坐标轴间隙
-#define numberOfYAxisElements 10 // y轴分为几段
+#define numberOfYAxisElements 5 // y轴分为几段
 #define kChartLineColor         [UIColor whiteColor]
 #define kChartTextColor         [UIColor whiteColor]
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width

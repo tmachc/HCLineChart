@@ -57,7 +57,7 @@
         //        [yArray addObject:[NSString stringWithFormat:@"%.2lf",0.0+i * 2]];
         
     }
-    [_hcLine resetxTitleArray:xArray yValueArray:yArray];
+    [_hcLine resetxTitleArray:xArray yValueArray:yArray unit:@"km/s"];
 }
 
 @end

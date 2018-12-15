@@ -7,31 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D2D404420C0F738009F27BF /* ValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D404320C0F738009F27BF /* ValueView.m */; };
-		2D2D404A20C12F26009F27BF /* XScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D404920C12F26009F27BF /* XScrollView.m */; };
-		2D2D404D20C12F9B009F27BF /* UIScrollView+UITouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D404C20C12F9B009F27BF /* UIScrollView+UITouch.m */; };
-		2D2D405020C13666009F27BF /* PointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D404F20C13666009F27BF /* PointView.m */; };
+		2D22B8B721C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B89F21C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		2D22B8B821C4BFD100AC5555 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8A821C4BFD100AC5555 /* ViewController+MASAdditions.m */; };
+		2D22B8B921C4BFD100AC5555 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8AC21C4BFD100AC5555 /* MASCompositeConstraint.m */; };
+		2D22B8BA21C4BFD100AC5555 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8AD21C4BFD100AC5555 /* MASConstraintMaker.m */; };
+		2D22B8BB21C4BFD100AC5555 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8AE21C4BFD100AC5555 /* MASLayoutConstraint.m */; };
+		2D22B8BC21C4BFD100AC5555 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8AF21C4BFD100AC5555 /* NSArray+MASAdditions.m */; };
+		2D22B8BD21C4BFD100AC5555 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8B021C4BFD100AC5555 /* View+MASAdditions.m */; };
+		2D22B8BE21C4BFD100AC5555 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8B321C4BFD100AC5555 /* MASConstraint.m */; };
+		2D22B8BF21C4BFD100AC5555 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8B521C4BFD100AC5555 /* MASViewConstraint.m */; };
+		2D22B8C021C4BFD100AC5555 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8B621C4BFD100AC5555 /* MASViewAttribute.m */; };
+		2D22B8C321C4C05700AC5555 /* CommonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8C221C4C05700AC5555 /* CommonTool.m */; };
+		2D22B8D621C4C18B00AC5555 /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8C621C4C18B00AC5555 /* YAxisView.m */; };
+		2D22B8D721C4C18B00AC5555 /* PointView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8C721C4C18B00AC5555 /* PointView.m */; };
+		2D22B8D821C4C18B00AC5555 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8C821C4C18B00AC5555 /* LineView.m */; };
+		2D22B8D921C4C18B00AC5555 /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8C921C4C18B00AC5555 /* XAxisView.m */; };
+		2D22B8DA21C4C18B00AC5555 /* ValueView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8CA21C4C18B00AC5555 /* ValueView.m */; };
+		2D22B8DB21C4C18B00AC5555 /* AxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8D221C4C18B00AC5555 /* AxisView.m */; };
+		2D22B8DC21C4C18B00AC5555 /* HCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D22B8D421C4C18B00AC5555 /* HCLineChartView.m */; };
 		2D4332F520BE713200EA53AC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4332F420BE713200EA53AC /* AppDelegate.m */; };
 		2D4332F820BE713200EA53AC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4332F720BE713200EA53AC /* ViewController.m */; };
 		2D4332FB20BE713200EA53AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4332F920BE713200EA53AC /* Main.storyboard */; };
 		2D4332FD20BE713300EA53AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D4332FC20BE713300EA53AC /* Assets.xcassets */; };
 		2D43330020BE713300EA53AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D4332FE20BE713300EA53AC /* LaunchScreen.storyboard */; };
 		2D43330320BE713300EA53AC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D43330220BE713300EA53AC /* main.m */; };
-		2D43330B20BE715700EA53AC /* HCLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D43330A20BE715700EA53AC /* HCLineChartView.m */; };
-		2D43330E20BE71B100EA53AC /* XAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D43330D20BE71B100EA53AC /* XAxisView.m */; };
-		2D43331120BE71C000EA53AC /* YAxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D43331020BE71C000EA53AC /* YAxisView.m */; };
-		2D43331420BE8A2F00EA53AC /* AxisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D43331320BE8A2F00EA53AC /* AxisView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D2D404220C0F738009F27BF /* ValueView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ValueView.h; sourceTree = "<group>"; };
-		2D2D404320C0F738009F27BF /* ValueView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ValueView.m; sourceTree = "<group>"; };
-		2D2D404820C12F26009F27BF /* XScrollView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XScrollView.h; sourceTree = "<group>"; };
-		2D2D404920C12F26009F27BF /* XScrollView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XScrollView.m; sourceTree = "<group>"; };
-		2D2D404B20C12F9B009F27BF /* UIScrollView+UITouch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+UITouch.h"; sourceTree = "<group>"; };
-		2D2D404C20C12F9B009F27BF /* UIScrollView+UITouch.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+UITouch.m"; sourceTree = "<group>"; };
-		2D2D404E20C13666009F27BF /* PointView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PointView.h; sourceTree = "<group>"; };
-		2D2D404F20C13666009F27BF /* PointView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PointView.m; sourceTree = "<group>"; };
+		2D22B89E21C4BFD100AC5555 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		2D22B89F21C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2D22B8A021C4BFD100AC5555 /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		2D22B8A121C4BFD100AC5555 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		2D22B8A221C4BFD100AC5555 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2D22B8A321C4BFD100AC5555 /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		2D22B8A421C4BFD100AC5555 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		2D22B8A521C4BFD100AC5555 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		2D22B8A621C4BFD100AC5555 /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		2D22B8A721C4BFD100AC5555 /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		2D22B8A821C4BFD100AC5555 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		2D22B8A921C4BFD100AC5555 /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		2D22B8AA21C4BFD100AC5555 /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		2D22B8AB21C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2D22B8AC21C4BFD100AC5555 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		2D22B8AD21C4BFD100AC5555 /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		2D22B8AE21C4BFD100AC5555 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		2D22B8AF21C4BFD100AC5555 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		2D22B8B021C4BFD100AC5555 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		2D22B8B121C4BFD100AC5555 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2D22B8B221C4BFD100AC5555 /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		2D22B8B321C4BFD100AC5555 /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		2D22B8B421C4BFD100AC5555 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		2D22B8B521C4BFD100AC5555 /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		2D22B8B621C4BFD100AC5555 /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		2D22B8C121C4C05600AC5555 /* CommonTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTool.h; sourceTree = "<group>"; };
+		2D22B8C221C4C05700AC5555 /* CommonTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTool.m; sourceTree = "<group>"; };
+		2D22B8C621C4C18B00AC5555 /* YAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
+		2D22B8C721C4C18B00AC5555 /* PointView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PointView.m; sourceTree = "<group>"; };
+		2D22B8C821C4C18B00AC5555 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
+		2D22B8C921C4C18B00AC5555 /* XAxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
+		2D22B8CA21C4C18B00AC5555 /* ValueView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValueView.m; sourceTree = "<group>"; };
+		2D22B8CB21C4C18B00AC5555 /* HCLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HCLineChartView.h; sourceTree = "<group>"; };
+		2D22B8CC21C4C18B00AC5555 /* AxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisView.h; sourceTree = "<group>"; };
+		2D22B8CD21C4C18B00AC5555 /* PointView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PointView.h; sourceTree = "<group>"; };
+		2D22B8CE21C4C18B00AC5555 /* YAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
+		2D22B8D021C4C18B00AC5555 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		2D22B8D121C4C18B00AC5555 /* XAxisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
+		2D22B8D221C4C18B00AC5555 /* AxisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisView.m; sourceTree = "<group>"; };
+		2D22B8D321C4C18B00AC5555 /* ValueView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValueView.h; sourceTree = "<group>"; };
+		2D22B8D421C4C18B00AC5555 /* HCLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HCLineChartView.m; sourceTree = "<group>"; };
 		2D4332F020BE713200EA53AC /* HCLineChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HCLineChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D4332F320BE713200EA53AC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2D4332F420BE713200EA53AC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -42,14 +85,6 @@
 		2D4332FF20BE713300EA53AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2D43330120BE713300EA53AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D43330220BE713300EA53AC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2D43330920BE715700EA53AC /* HCLineChartView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCLineChartView.h; sourceTree = "<group>"; };
-		2D43330A20BE715700EA53AC /* HCLineChartView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCLineChartView.m; sourceTree = "<group>"; };
-		2D43330C20BE71B100EA53AC /* XAxisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XAxisView.h; sourceTree = "<group>"; };
-		2D43330D20BE71B100EA53AC /* XAxisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAxisView.m; sourceTree = "<group>"; };
-		2D43330F20BE71C000EA53AC /* YAxisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YAxisView.h; sourceTree = "<group>"; };
-		2D43331020BE71C000EA53AC /* YAxisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YAxisView.m; sourceTree = "<group>"; };
-		2D43331220BE8A2F00EA53AC /* AxisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AxisView.h; sourceTree = "<group>"; };
-		2D43331320BE8A2F00EA53AC /* AxisView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AxisView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +98,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D22B89D21C4BFD100AC5555 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				2D22B89E21C4BFD100AC5555 /* MASCompositeConstraint.h */,
+				2D22B89F21C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				2D22B8A021C4BFD100AC5555 /* MASConstraint+Private.h */,
+				2D22B8A121C4BFD100AC5555 /* MASLayoutConstraint.h */,
+				2D22B8A221C4BFD100AC5555 /* NSArray+MASShorthandAdditions.h */,
+				2D22B8A321C4BFD100AC5555 /* MASConstraintMaker.h */,
+				2D22B8A421C4BFD100AC5555 /* View+MASAdditions.h */,
+				2D22B8A521C4BFD100AC5555 /* NSArray+MASAdditions.h */,
+				2D22B8A621C4BFD100AC5555 /* MASUtilities.h */,
+				2D22B8A721C4BFD100AC5555 /* MASViewAttribute.h */,
+				2D22B8A821C4BFD100AC5555 /* ViewController+MASAdditions.m */,
+				2D22B8A921C4BFD100AC5555 /* MASViewConstraint.h */,
+				2D22B8AA21C4BFD100AC5555 /* MASConstraint.h */,
+				2D22B8AB21C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2D22B8AC21C4BFD100AC5555 /* MASCompositeConstraint.m */,
+				2D22B8AD21C4BFD100AC5555 /* MASConstraintMaker.m */,
+				2D22B8AE21C4BFD100AC5555 /* MASLayoutConstraint.m */,
+				2D22B8AF21C4BFD100AC5555 /* NSArray+MASAdditions.m */,
+				2D22B8B021C4BFD100AC5555 /* View+MASAdditions.m */,
+				2D22B8B121C4BFD100AC5555 /* View+MASShorthandAdditions.h */,
+				2D22B8B221C4BFD100AC5555 /* Masonry.h */,
+				2D22B8B321C4BFD100AC5555 /* MASConstraint.m */,
+				2D22B8B421C4BFD100AC5555 /* ViewController+MASAdditions.h */,
+				2D22B8B521C4BFD100AC5555 /* MASViewConstraint.m */,
+				2D22B8B621C4BFD100AC5555 /* MASViewAttribute.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		2D22B8C421C4C18B00AC5555 /* HCLineChart */ = {
+			isa = PBXGroup;
+			children = (
+				2D22B8CB21C4C18B00AC5555 /* HCLineChartView.h */,
+				2D22B8D421C4C18B00AC5555 /* HCLineChartView.m */,
+				2D22B8CC21C4C18B00AC5555 /* AxisView.h */,
+				2D22B8D221C4C18B00AC5555 /* AxisView.m */,
+				2D22B8D121C4C18B00AC5555 /* XAxisView.h */,
+				2D22B8C921C4C18B00AC5555 /* XAxisView.m */,
+				2D22B8CE21C4C18B00AC5555 /* YAxisView.h */,
+				2D22B8C621C4C18B00AC5555 /* YAxisView.m */,
+				2D22B8D021C4C18B00AC5555 /* LineView.h */,
+				2D22B8C821C4C18B00AC5555 /* LineView.m */,
+				2D22B8D321C4C18B00AC5555 /* ValueView.h */,
+				2D22B8CA21C4C18B00AC5555 /* ValueView.m */,
+				2D22B8CD21C4C18B00AC5555 /* PointView.h */,
+				2D22B8C721C4C18B00AC5555 /* PointView.m */,
+			);
+			path = HCLineChart;
+			sourceTree = "<group>";
+		};
 		2D4332E720BE713200EA53AC = {
 			isa = PBXGroup;
 			children = (
@@ -86,35 +174,15 @@
 				2D4332F420BE713200EA53AC /* AppDelegate.m */,
 				2D4332F620BE713200EA53AC /* ViewController.h */,
 				2D4332F720BE713200EA53AC /* ViewController.m */,
-				2D8A752820D9F4BB002D1A1F /* HCLineChart */,
 				2D4332F920BE713200EA53AC /* Main.storyboard */,
+				2D22B8C421C4C18B00AC5555 /* HCLineChart */,
 				2D4332FC20BE713300EA53AC /* Assets.xcassets */,
 				2D4332FE20BE713300EA53AC /* LaunchScreen.storyboard */,
 				2D43330120BE713300EA53AC /* Info.plist */,
 				2D43330220BE713300EA53AC /* main.m */,
-			);
-			path = HCLineChart;
-			sourceTree = "<group>";
-		};
-		2D8A752820D9F4BB002D1A1F /* HCLineChart */ = {
-			isa = PBXGroup;
-			children = (
-				2D43330920BE715700EA53AC /* HCLineChartView.h */,
-				2D43330A20BE715700EA53AC /* HCLineChartView.m */,
-				2D43330C20BE71B100EA53AC /* XAxisView.h */,
-				2D43330D20BE71B100EA53AC /* XAxisView.m */,
-				2D43330F20BE71C000EA53AC /* YAxisView.h */,
-				2D43331020BE71C000EA53AC /* YAxisView.m */,
-				2D2D404220C0F738009F27BF /* ValueView.h */,
-				2D2D404320C0F738009F27BF /* ValueView.m */,
-				2D43331220BE8A2F00EA53AC /* AxisView.h */,
-				2D43331320BE8A2F00EA53AC /* AxisView.m */,
-				2D2D404E20C13666009F27BF /* PointView.h */,
-				2D2D404F20C13666009F27BF /* PointView.m */,
-				2D2D404820C12F26009F27BF /* XScrollView.h */,
-				2D2D404920C12F26009F27BF /* XScrollView.m */,
-				2D2D404B20C12F9B009F27BF /* UIScrollView+UITouch.h */,
-				2D2D404C20C12F9B009F27BF /* UIScrollView+UITouch.m */,
+				2D22B8C121C4C05600AC5555 /* CommonTool.h */,
+				2D22B8C221C4C05700AC5555 /* CommonTool.m */,
+				2D22B89D21C4BFD100AC5555 /* Masonry */,
 			);
 			path = HCLineChart;
 			sourceTree = "<group>";
@@ -189,17 +257,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D43330B20BE715700EA53AC /* HCLineChartView.m in Sources */,
-				2D43331120BE71C000EA53AC /* YAxisView.m in Sources */,
+				2D22B8BC21C4BFD100AC5555 /* NSArray+MASAdditions.m in Sources */,
 				2D4332F820BE713200EA53AC /* ViewController.m in Sources */,
-				2D2D405020C13666009F27BF /* PointView.m in Sources */,
+				2D22B8D821C4C18B00AC5555 /* LineView.m in Sources */,
+				2D22B8BD21C4BFD100AC5555 /* View+MASAdditions.m in Sources */,
+				2D22B8B721C4BFD100AC5555 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				2D22B8C321C4C05700AC5555 /* CommonTool.m in Sources */,
+				2D22B8DB21C4C18B00AC5555 /* AxisView.m in Sources */,
+				2D22B8B921C4BFD100AC5555 /* MASCompositeConstraint.m in Sources */,
+				2D22B8B821C4BFD100AC5555 /* ViewController+MASAdditions.m in Sources */,
+				2D22B8D921C4C18B00AC5555 /* XAxisView.m in Sources */,
+				2D22B8C021C4BFD100AC5555 /* MASViewAttribute.m in Sources */,
+				2D22B8BF21C4BFD100AC5555 /* MASViewConstraint.m in Sources */,
 				2D43330320BE713300EA53AC /* main.m in Sources */,
-				2D43330E20BE71B100EA53AC /* XAxisView.m in Sources */,
-				2D2D404A20C12F26009F27BF /* XScrollView.m in Sources */,
+				2D22B8BA21C4BFD100AC5555 /* MASConstraintMaker.m in Sources */,
+				2D22B8BB21C4BFD100AC5555 /* MASLayoutConstraint.m in Sources */,
+				2D22B8DA21C4C18B00AC5555 /* ValueView.m in Sources */,
 				2D4332F520BE713200EA53AC /* AppDelegate.m in Sources */,
-				2D2D404D20C12F9B009F27BF /* UIScrollView+UITouch.m in Sources */,
-				2D2D404420C0F738009F27BF /* ValueView.m in Sources */,
-				2D43331420BE8A2F00EA53AC /* AxisView.m in Sources */,
+				2D22B8D721C4C18B00AC5555 /* PointView.m in Sources */,
+				2D22B8DC21C4C18B00AC5555 /* HCLineChartView.m in Sources */,
+				2D22B8BE21C4BFD100AC5555 /* MASConstraint.m in Sources */,
+				2D22B8D621C4C18B00AC5555 /* YAxisView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

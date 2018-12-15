@@ -14,8 +14,8 @@
 @property (strong, nonatomic) NSArray *yValueArray;
 @property (assign, nonatomic) CGFloat yMax;
 @property (assign, nonatomic) CGFloat yMin;
-@property (assign, nonatomic) CGFloat pointGap;//点之间的距离
+@property (nonatomic, assign) CGFloat edgeWidth;
 
-- (instancetype)initWithFrame:(CGRect)frame xTitleArray:(NSArray*)xTitleArray yValueArray:(NSArray*)yValueArray pointGap:(CGFloat)pointGap yMax:(CGFloat)yMax yMin:(CGFloat)yMin;
+- (instancetype)initWithFrame:(CGRect)frame xTitleArray:(NSArray*)xTitleArray yValueArray:(NSArray*)yValueArray edgeWidth:(CGFloat)edgeWidth yMax:(CGFloat)yMax yMin:(CGFloat)yMin;
 
 @end

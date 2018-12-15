@@ -1,21 +1,21 @@
 //
-//  ValueView.m
-//  HCLineChart
+//  LineView.m
+//  F2Pool
 //
-//  Created by 韩冲 on 2018/6/1.
+//  Created by 韩冲 on 2018/8/3.
 //  Copyright © 2018年 f2pool. All rights reserved.
 //
 
-#import "ValueView.h"
+#import "LineView.h"
 
-@interface ValueView ()
+@interface LineView ()
 
 @property (nonatomic, strong) NSArray *arrPoints;
 @property (nonatomic, strong) UIColor *color;
 
 @end
 
-@implementation ValueView
+@implementation LineView
 
 - (instancetype)initWithFrame:(CGRect)frame valueArray:(NSArray*)valueArray edgeWidth:(CGFloat)edgeWidth yMax:(CGFloat)yMax yMin:(CGFloat)yMin color:(UIColor *)color
 {
@@ -27,21 +27,8 @@
         self.edgeWidth = edgeWidth;
         self.color = color;
         self.backgroundColor = [UIColor clearColor];
-        [self resetBgColor];
     }
     return self;
-}
-
-- (void)resetBgColor
-{
-    self.layer.sublayers = @[];
-    [CommonTool setBackgroundColors:@[
-                                      [self.color colorWithAlphaComponent:0.7],
-                                      [self.color colorWithAlphaComponent:0],
-                                      ]
-                         startPoint:CGPointMake(0, 0)
-                           endPoint:CGPointMake(0, 1)
-                            forView:self];
 }
 
 - (void)drawRect:(CGRect)rect
@@ -65,8 +52,7 @@
     //画折线
     NSMutableArray *points = [NSMutableArray array];
     CGSize textSize = [@"0.1" sizeWithAttributes:self.attr];
-    CGFloat allLabelHeight = self.frame.size.height - xAxisTextGap - textSize.height;
-    for (NSInteger i = 0; i < self.valueArray.count - noUseNum; i++) {
+    for (NSInteger i = 0; i < self.valueArray.count; i++) {
         CGFloat chartHeight = self.frame.size.height - xAxisTextGap - textSize.height - topMargin - 1;
         NSNumber *drawValue = self.valueArray[i];
         CGPoint drawPoint = CGPointMake((i) * pointGap + self.edgeWidth/2,
@@ -76,14 +62,11 @@
     self.arrPoints = [points copy];
     UIBezierPath *path = [self getPathWithPoints:self.arrPoints];
     
-    [path addLineToPoint:CGPointMake(self.frame.size.width - self.edgeWidth/2, allLabelHeight + 0.5)];  // 添加路径
-    [path addLineToPoint:CGPointMake(self.edgeWidth/2, allLabelHeight + 0.5)];    // 添加路径
-    [path closePath];   // 封闭路径
-    // ShapeLayer
-    CAShapeLayer *maskLayer = [CAShapeLayer layer];
-    maskLayer.path = path.CGPath;
-    // 将CAShapeLayer设置为渐变层的mask
-    self.layer.mask = maskLayer;
+    //设置画笔颜色
+    [self.color set];
+    path.lineWidth = 1.5;
+    path.miterLimit = 1;
+    [path stroke];
 }
 
 - (UIBezierPath *)getPathWithPoints:(NSArray <NSValue *> *)points
@@ -104,6 +87,12 @@
 
 - (CGPoint)getPointForIndex:(int)index
 {
+    if (index >= self.arrPoints.count) {
+        index = 0;
+    }
+    if (!self.arrPoints.count) {
+        return CGPointZero;
+    }
     return [self.arrPoints[index] CGPointValue];
 }
 
